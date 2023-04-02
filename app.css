@@ -1,0 +1,90 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+
+/* -------Navbar content-------- */
+#main-nav-bar {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+#main-nav-bar .nav-link {
+  color: white;
+}
+
+#main-nav-bar .nav-link:hover {
+  color: #ea1c2c;
+}
+
+#main-nav-bar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.75rem;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.navbar.scrolled {
+  background: #dec0de;
+  transition: background 500ms;
+}
+
+@media (max-width: 576px) {
+  #main-nav-bar {
+    background: #dec0de;
+  }
+}
+/* -------------------------------- */
+
+/* -------Main title section-------- */
+#title-container span {
+  color: #ea1c2c;
+}
+
+#title-container h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1400px) {
+  #title-container h1 {
+    font-size: 2.75rem;
+  }
+}
+/* ----------------------------------- */
+
+/* -------Topic content sections-------- */
+.content-block {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .content-block {
+    margin-bottom: 0px;
+  }
+  body:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-block {
+    margin-bottom: 75px;
+  }
+}
+
+.blurb h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.15rem;
+  line-height: 2;
+}
+/* ------------------------------------- */
